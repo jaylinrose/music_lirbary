@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function Seachbar(props) {
+function Searchbar(props) {
     let [searchTerm, setSearchTerm] = useState('')
 
     return (
@@ -8,7 +8,7 @@ function Seachbar(props) {
 
             <input type="text" placeholder="Enter a search term here" onChange={
                 (e) => setSearchTerm(e.target.value)
-            }/>
+            } />
 
             <input type="submit" />
 
@@ -16,4 +16,4 @@ function Seachbar(props) {
     )
 }
 
-export default Seachbar
+export default Searchbar
